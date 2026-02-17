@@ -1,1 +1,1 @@
-This is a git repositories which contains sorting algorithm.
+This is a git repositories which contains python codes.
