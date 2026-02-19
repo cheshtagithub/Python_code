@@ -1,5 +1,8 @@
 n = int(input("Enter the number for factorial: "))
 try:
+    if n < 0:
+        raise ValueError("Value is less than 0")
+    
     if (n == 0) or (n == 1):
         print(f"Factorial of {n} is: ",1)
 
